@@ -72,5 +72,5 @@ function calculatePayroll(employees){
   return sum
 }
 
-console.log(calculatePayroll(employees))
+console.log(calculatePayroll(this.employees))
   
