@@ -42,7 +42,7 @@ function createEmployeeRecord(array){
   let day = "Hello World".split(" ")
   console.log(day)
 
-  function hoursWorkedOnDate(param, param2){
+  function hoursWorkedOnDate(param){
     let hours = (param.timeOutEvents[0].hour - param.timeInEvents[0].hour) / 100
     return hours
   }
